@@ -1,3 +1,14 @@
+.container{
+  width: 1190;
+  height: auto;
+  margin: 0 auto;
+}
+
 header{
-  background-image:url('img/carin-stone.jpg');
+
+}
+
+.contact{
+  width: 1190;
+  background: blue;
 }
