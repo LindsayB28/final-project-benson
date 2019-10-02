@@ -5,25 +5,29 @@ body {
 header{
 	width: 1200px;
 	height: 800px;
+	background: #e6f9ff;
 }
 
 .container{
   width: 1200px;
   height: auto;
   margin: 0 auto;
+	border-right: 5px solid #808080;
+	border-left: 5px solid #808080;
 }
 
 .about{
   width: 1200px;
   height: 850px;
   margin: 0 auto;
-  background: orange;
+  background: #ffaa80;
 }
 
 .work{
   width: 1200px;
-  height: 775px;
+  height: 730px;
   margin: 0 auto;
+	background: #e6f9ff;
 }
 
 .project-1, .project-2, .project-3{
@@ -37,15 +41,15 @@ header{
 
 .contact{
   width: 1200;
-  height: 500px;
-  background: orange;
+  height: 400px;
+  background: #ffaa80;
 	margin: 0 auto;
 }
 
 footer{
   width: 1200px;
 	height: 50px;
-	background: orange;
+	background: #ffaa80;
 	text-align: center;
 	margin: 0 auto;
 	clear: both;
@@ -55,6 +59,7 @@ footer{
 
 h1, h2, h3, h4{
 	font-weight: bold;
+	margin: 0 auto;
 }
 
 header nav{
@@ -82,7 +87,9 @@ h1{
 }
 
 h1 span{
-	color: orange;
+	color: #ffaa80;
+	font-size: 80px;
+	font-weight: bolder;
 }
 
 .main-title p{
@@ -96,12 +103,13 @@ h2{
 }
 
 .profile-image{
-	margin: 0px 500px 0 500px;
+	margin: 50px 500px 0 500px;
 }
 
 .profile-image img{
 	height: 200px;
 	width: 200px;
+	border: 3px solid #808080;
 }
 
 .about p{
@@ -134,6 +142,7 @@ h2{
 	float: left;
 	width: 400px;
 	text-align: center;
+	padding: 30px 0;
 }
 
 h4{
@@ -142,10 +151,16 @@ h4{
 }
 
 .contact p{
-	font-size: 18px;
+	font-size: 20px;
+}
+
+.follow-me img{
+	height: 45px;
+	width: 45px;
+	padding: 15px 15px;
 }
 
 h5{
-	font-size: 12px;
+	font-size: 16px;
 	margin: 0 auto;
 }
